@@ -12,6 +12,7 @@ namespace Library.Control
         IAnsiDecoder vt100 = new AnsiDecoder();
         Library.VT100.Screen scr;
         Library.VT100.Screen scr2;
+        bool bRefresh = false;
         int consoleRow=100;
         int consoleCol=500;
         long timestamp = 0;
@@ -92,6 +93,7 @@ namespace Library.Control
             vt100.Encoding = Encoding.GetEncoding("ibm437");
             vt100.Subscribe(scr);
             Clear();
+            timer1.Start();
         }
         public RichConsoleControl()
         {
@@ -107,12 +109,7 @@ namespace Library.Control
             {
                 vt100.Input(new byte[1] { b });
             }
-
-            if (DateTime.Now.Ticks - timestamp > 200)
-            {
-                RefreshTxConsole();
-                timestamp = DateTime.Now.Ticks;
-            }
+            bRefresh = true;
         }
 
         public void WriteString(String s)
@@ -160,6 +157,16 @@ namespace Library.Control
             {
                 MessageBox.Show("Save RTF file fail!", "Error");
             }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (bRefresh)
+            {
+                RefreshTxConsole();
+                timestamp = DateTime.Now.Ticks;
+            }
+
         }
 
     }

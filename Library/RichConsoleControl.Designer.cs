@@ -28,7 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.txConsole = new System.Windows.Forms.RichTextBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // txConsole
@@ -40,17 +42,21 @@
             this.txConsole.Location = new System.Drawing.Point(0, 0);
             this.txConsole.Name = "txConsole";
             this.txConsole.ReadOnly = true;
-            this.txConsole.Size = new System.Drawing.Size(85, 97);
+            this.txConsole.Size = new System.Drawing.Size(85, 105);
             this.txConsole.TabIndex = 0;
             this.txConsole.Text = "";
             // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // RichConsoleControl
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.txConsole);
             this.Name = "RichConsoleControl";
-            this.Size = new System.Drawing.Size(111, 134);
+            this.Size = new System.Drawing.Size(111, 145);
             this.Load += new System.EventHandler(this.RichConsoleControl_Load);
             this.SizeChanged += new System.EventHandler(this.RichConsoleControl_SizeChanged);
             this.ResumeLayout(false);
@@ -60,5 +66,6 @@
         #endregion
 
         private System.Windows.Forms.RichTextBox txConsole;
+        private System.Windows.Forms.Timer timer1;
     }
 }

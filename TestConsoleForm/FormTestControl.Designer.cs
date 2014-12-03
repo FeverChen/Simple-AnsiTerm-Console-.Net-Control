@@ -38,7 +38,7 @@
             this.rtConsole.ConsoleRow = 500;
             this.rtConsole.Location = new System.Drawing.Point(-1, -3);
             this.rtConsole.Name = "rtConsole";
-            this.rtConsole.Size = new System.Drawing.Size(1869, 2773);
+            this.rtConsole.Size = new System.Drawing.Size(1923, 2827);
             this.rtConsole.TabIndex = 0;
             // 
             // FormTestControl
