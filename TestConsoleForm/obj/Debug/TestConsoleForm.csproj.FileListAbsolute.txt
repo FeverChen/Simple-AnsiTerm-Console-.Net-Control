@@ -1,0 +1,11 @@
+C:\Users\ccj\Documents\Visual Studio 2013\Projects\testGUIProgram\TestConsoleForm\obj\Debug\TestConsoleForm.csproj.GenerateResource.Cache
+C:\Users\ccj\Documents\Visual Studio 2013\Projects\testGUIProgram\TestConsoleForm\bin\Debug\TestConsoleForm.exe.config
+C:\Users\ccj\Documents\Visual Studio 2013\Projects\testGUIProgram\TestConsoleForm\bin\Debug\TestConsoleForm.exe
+C:\Users\ccj\Documents\Visual Studio 2013\Projects\testGUIProgram\TestConsoleForm\bin\Debug\TestConsoleForm.pdb
+C:\Users\ccj\Documents\Visual Studio 2013\Projects\testGUIProgram\TestConsoleForm\bin\Debug\Library.dll
+C:\Users\ccj\Documents\Visual Studio 2013\Projects\testGUIProgram\TestConsoleForm\bin\Debug\Library.pdb
+C:\Users\ccj\Documents\Visual Studio 2013\Projects\testGUIProgram\TestConsoleForm\obj\Debug\TestConsoleForm.exe
+C:\Users\ccj\Documents\Visual Studio 2013\Projects\testGUIProgram\TestConsoleForm\obj\Debug\TestConsoleForm.pdb
+C:\Users\ccj\Documents\Visual Studio 2013\Projects\testGUIProgram\TestConsoleForm\obj\Debug\TestConsole.FormTestControl.resources
+C:\Users\ccj\Documents\Visual Studio 2013\Projects\testGUIProgram\TestConsoleForm\obj\Debug\TestConsole.Properties.Resources.resources
+C:\Users\ccj\Documents\Visual Studio 2013\Projects\testGUIProgram\TestConsoleForm\obj\Debug\TestConsoleForm.csprojResolveAssemblyReference.cache

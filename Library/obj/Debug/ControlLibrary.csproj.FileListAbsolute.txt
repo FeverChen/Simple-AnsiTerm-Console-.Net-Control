@@ -1,0 +1,7 @@
+C:\Users\ee-cory\Documents\Visual Studio 2013\Projects\testGUIProgram\ControlLibrary\bin\Debug\ControlLibrary.pdb
+C:\Users\ee-cory\Documents\Visual Studio 2013\Projects\testGUIProgram\ControlLibrary\obj\Debug\ControlLibrary.csproj.GenerateResource.Cache
+C:\Users\ee-cory\Documents\Visual Studio 2013\Projects\testGUIProgram\ControlLibrary\obj\Debug\ControlLibrary.pdb
+C:\Users\ee-cory\Documents\Visual Studio 2013\Projects\testGUIProgram\ControlLibrary\bin\Debug\ControlLibrary.dll
+C:\Users\ee-cory\Documents\Visual Studio 2013\Projects\testGUIProgram\ControlLibrary\obj\Debug\ControlLibrary.dll
+C:\Users\ee-cory\Documents\Visual Studio 2013\Projects\testGUIProgram\ControlLibrary\obj\Debug\Library.FormTestControl.resources
+C:\Users\ee-cory\Documents\Visual Studio 2013\Projects\testGUIProgram\ControlLibrary\obj\Debug\Library.Control.RichConsoleControl.resources
