@@ -39,8 +39,6 @@ namespace Library.Control
         }
         private void RefreshTxConsole()
         {
-            txConsole.SelectionStart = 0;
-            txConsole.SelectionLength = 1;
             for (int i = 0; i <= scr.BottomCursorPosition.Y; i++)
             {
                 for (int j = 0; j < ConsoleColumn; j++)
